@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="mm">
+        <div class="main-text">
+            <h1>Welcome to Currency Converter Page</h1>
+        </div>
+
+        <div class="sub-text">
+            <h2>Please select countries for conversion</h2>
+        </div>
+
+        <div class="main-input">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="Enter the amount" value="">
+
+            <label for="fromCountry">From Country</label>
+            <select id="fromCountry">
+                <option value="">-- Select From Country --</option>
+            </select>
+
+            <label for="toCountry">To Country</label>
+            <select id="toCountry">
+                <option value="">-- Select To Country --</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="func.js"></script>
+    <script src="func1.js"></script>
+</body>
+
+</html>
